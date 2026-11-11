@@ -1,0 +1,98 @@
+body {
+    background: linear-gradient(135deg, #e0f7fa, #f5f7fa, #e8eaf6);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 60px 20px;
+    color: #263238;
+}
+
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.container:first-of-type {
+    background-color: #ffffff;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 10px 35px rgba(38, 50, 56, 0.10);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+label {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #37474f;
+    margin-bottom: 12px;
+}
+
+.form-control {
+    border: 2px solid #e0e7ed;
+    border-radius: 12px;
+    padding: 14px 16px;
+    font-size: 1rem;
+    color: #263238;
+    background-color: #fafcfe;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #0dcaf0;
+    box-shadow: 0 0 0 4px rgba(13, 202, 240, 0.15);
+    background-color: #ffffff;
+    outline: none;
+}
+
+.btn {
+    border-radius: 10px;
+    padding: 10px 18px;
+    font-weight: 500;
+    transition: all 0.25s ease;
+}
+
+.btn-outline-info {
+    color: #087990;
+    border-color: #0dcaf0;
+}
+
+.btn-outline-info:hover {
+    background-color: #0dcaf0;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(13, 202, 240, 0.2);
+}
+
+.btn-outline-success {
+    color: #198754;
+}
+
+.btn-outline-success:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(25, 135, 84, 0.15);
+}
+
+/* Botón borrar */
+.btn-outline-danger:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(220, 53, 69, 0.15);
+}
+
+.container:nth-of-type(2) {
+    margin-top: 20px;
+}
+
+#respuesta {
+    background-color: #ffffff;
+    border-left: 5px solid #0dcaf0;
+    border-radius: 12px;
+    padding: 20px;
+    min-height: 60px;
+    overflow-wrap: anywhere;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #37474f;
+    box-shadow: 0 5px 20px rgba(38, 50, 56, 0.06);
+    transition: all 0.3s ease;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./public/img/favico.png" type="image/x-icon">
+    <link rel="stylesheet" href="./public/css/main.css">
+    <title>Examen Unidad 4</title>
+</head>
+<body>
+
+     <div class="container">
+        <div class="row">
+            <div class="col">
+                <label for="palabraER">Ingrese la expresión regular</label>
+                <input type="text" id="palabraER" class="form-control">
+            </div>
+
+            <div class="col">
+                <label for="texto">Ingrese el texto a evaluar</label>
+                <input type="text" id="texto" class="form-control">
+            </div>
+
+        </div>
+        <button id="capturaT" class="btn btn-outline-success mt-2 mb-3">Evaluar</button>
+        <button id="borrar" type="button" class="btn btn-outline-danger mt-2 mb-3">Borrar</button>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p  id="respuesta">Respuesta</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./bundle.js"></script>
+</body>
+</html>
