@@ -1,13 +1,13 @@
 {
   "name": "plantilla",
   "version": "1.0.0",
-  "description": "Plantilla basado en ES",
+  "description": "Proyecto Webpack y Babel",
   "main": "index.js",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "deploy": "gh-pages -d dist"
+    "dev": "webpack serve --open",
+    "build": "webpack --mode production",
+    "build2": "babel src -d controller --watch",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "author": "Adaly",
   "license": "MIT",
@@ -32,14 +32,5 @@
     "css-loader": "^7.1.5",
     "style-loader": "^4.0.0",
     "sweetalert2": "^11.26.25"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Adalyyy/examenU4.git"
-  },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/Adalyyy/examenU4/issues"
-  },
-  "homepage": "https://github.com/Adalyyy/examenU4"
+  }
 }
